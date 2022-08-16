@@ -20,6 +20,7 @@
                 System.out.println("ERROR!!! Flight plan already set. Landing on the Plain");
             }
             landing = landingCheck(100);
+            new GuessingGame();
         }
 
         public static boolean landingCheck(int loops) throws InterruptedException {
