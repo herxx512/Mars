@@ -21,6 +21,7 @@
             }
             landing = landingCheck(100);
             new GuessingGame();
+            new MarsExpedition();
         }
 
         public static boolean landingCheck(int loops) throws InterruptedException {
